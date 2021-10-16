@@ -14,6 +14,7 @@ module.exports = {
     defaultImage: "images/bg.jpeg",
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
